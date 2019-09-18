@@ -130,7 +130,7 @@ void ultrasonic_trigger() {
 }
 
 
-void check_distance() {
+/*void check_distance() {
   digitalWrite(trigPin_0, LOW);
   delayMicroseconds(5);
   digitalWrite(trigPin_0, HIGH);
@@ -160,7 +160,8 @@ void check_distance() {
   Serial.println();
   
   //delay(250);
-}
+}*/
+//unused function
 
 void unlock_open() {
     servo_1.write(0);                
