@@ -122,12 +122,12 @@ void loop()
    }
 } 
 
-void ultrasonic_trigger() {
+/*void ultrasonic_trigger() {
      servo_1.write(0);              // tell servo to go to position in variable 'pos' 
      delay(15);                       // waits 15ms for the servo to reach the position                                
      servo_2.write(0);              // tell servo to go to position in variable 'pos' 
      delay(15);                       // waits 15ms for the servo to reach the position 
-}
+}*/
 
 
 /*void check_distance() {
